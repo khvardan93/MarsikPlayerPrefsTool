@@ -11,8 +11,8 @@
 Marsik PalyerPrefs Tool is a package which will let you to track and edit PlayerPrefs in your unity project.
 
 ## Installation
-You can install the pack from Unity Asset store 
-
+You can install the pack from Unity Asset store - https://u3d.as/3fT0
+Or can download the packege from https://github.com/khvardan93/MarsikPlayerPrefsTool/tree/563e31d9a98ac30619a4317c2082f454dfa67c9c/ExportedPackage
 
 ## Usage
 To open the inspector window with the tool go to **Window/MarsikTools/DataStorage**.
