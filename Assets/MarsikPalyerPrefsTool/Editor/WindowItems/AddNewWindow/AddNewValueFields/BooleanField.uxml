@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Toggle label="Toggle" name="BooleanField" view-data-key="new_item_value" style="height: 30px;" />
+</ui:UXML>

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e2a09997dbba774e9b6217891449ecf, type: 3}
+  m_Name: AddNewWindowItems
+  m_EditorClassIdentifier: 
+  AddNewWindowAsset: {fileID: 9197481963319205126, guid: b599b1a10e655914fa6b3516a031eeb4, type: 3}
+  IntFieldAsset: {fileID: 9197481963319205126, guid: c550a00b18e02114bb91e6c4ae4f043a, type: 3}
+  FloatFieldAsset: {fileID: 9197481963319205126, guid: b81b94d1b11678742b2c269262e7d14e, type: 3}
+  StringFieldAsset: {fileID: 9197481963319205126, guid: 6a98464fca525b74e87582371c83a5a8, type: 3}

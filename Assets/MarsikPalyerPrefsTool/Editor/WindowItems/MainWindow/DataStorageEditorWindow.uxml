@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="flex-grow: 1; align-self: stretch; justify-content: flex-start; flex-direction: column; flex-wrap: nowrap; display: flex; visibility: visible; overflow: visible; align-items: stretch; margin-top: 0;">
+        <ui:VisualElement name="TopButtons" style="flex-grow: 1; flex-direction: row; align-self: auto; max-height: 30px; height: 25px; align-items: center;">
+            <ui:Button text="Add New" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddButton" view-data-key="top_buttons_add_new" style="height: 20px; max-height: 20px; width: 110px;" />
+            <ui:Button text="Delete Selected" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteButton" view-data-key="top_buttons_delete_selected" style="height: 20px; max-height: 25px; width: 120px;" />
+            <ui:Button text="Reset Filters" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResetButton" view-data-key="top_buttons_reset" style="height: 20px; max-height: 25px; width: 120px;" />
+            <ui:Button text="Refresh Items" parse-escape-sequences="true" display-tooltip-when-elided="true" name="RefreshButton" view-data-key="top_buttons_refresh" style="height: 20px; max-height: 25px; width: 120px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Filters" style="flex-grow: 1; height: 130px; max-height: 150px; margin-bottom: 10px;">
+            <ui:TextField label="Search" name="SearchField" view-data-key="filters_search_field" keyboard-type="Default" is-delayed="false" auto-correction="false" readonly="false" picking-mode="Ignore" usage-hints="-1" style="height: 25px; align-items: auto;" />
+            <ui:EnumField label="Type" type="PlayerPrefsUtil.ShowType, PlayerPrefsUtil" name="TypeField" view-data-key="filters_type_field" style="height: 25px; align-items: auto;" />
+            <ui:EnumField label="OrderBy" type="PlayerPrefsUtil.OrderBy, PlayerPrefsUtil" name="OrderField" view-data-key="filters_order_field" style="height: 25px; align-items: auto;" />
+            <ui:EnumField label="SortBy" type="PlayerPrefsUtil.SortBy, PlayerPrefsUtil" name="SortField" view-data-key="filters_sort_field" style="height: 25px; align-items: auto;" />
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                <ui:Toggle label="GroupByType" view-data-key="filters_group_field" name="GroupToggle" style="height: 25px; align-items: auto;" />
+                <ui:Toggle label="AutoRefreshItems" view-data-key="filters_autorefresh_field" name="AutorefershToggle" style="height: 25px; align-items: auto;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:ScrollView name="ItemsListView" style="height: auto; min-height: 100px; -unity-text-outline-width: 0; -unity-text-outline-color: rgb(255, 255, 255); border-top-width: 1.5px; border-top-color: rgba(255, 255, 255, 0.31); flex-direction: column; align-self: auto; margin-top: 0; padding-top: 5px; padding-bottom: 0; margin-bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="GroupTitle" style="flex-grow: 1; height: 30px; margin-top: 5px; padding-top: 5px;">
+        <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="GroupTitle" style="height: 30px; -unity-text-align: middle-center; background-color: rgba(84, 84, 84, 0.78); -unity-background-image-tint-color: rgba(84, 84, 84, 0.78); -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>

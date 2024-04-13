@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="AddNewContainer" view-data-key="add_new_item_container" style="flex-grow: 1; max-height: 170px; -unity-background-image-tint-color: rgb(124, 124, 124); background-color: rgb(124, 124, 124); align-items: stretch; justify-content: space-between; align-self: stretch; flex-direction: column; -unity-background-scale-mode: stretch-to-fill;">
+        <ui:Label tabindex="-1" text="AddNewItem" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddNewItemLabel" view-data-key="add_new_button" style="height: 30px; max-height: 20px; -unity-text-align: middle-center;" />
+        <ui:TextField picking-mode="Ignore" label="Key" value="Key" focusable="true" name="KeyField" multiline="false" auto-correction="false" view-data-key="new_item_key" style="height: 30px; overflow: visible; align-items: auto; align-self: auto; -unity-text-align: middle-left; margin-left: 4px; -unity-font-style: normal; flex-direction: row; justify-content: flex-start;" />
+        <ui:EnumField label="Type" type="PlayerPrefsUtil.DataType, PlayerPrefsUtil" name="Type" view-data-key="new_item_type" style="max-height: none; overflow: visible; display: flex; flex-basis: auto; align-self: auto; padding-top: 0; -unity-text-align: middle-left; flex-wrap: nowrap; flex-direction: row; flex-shrink: 0; flex-grow: 0; align-items: auto; white-space: nowrap; height: 30px;" />
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 40px; min-height: 40px; max-height: 40px; flex-direction: row; -unity-text-align: upper-left; justify-content: center; align-items: center;">
+            <ui:Button text="Add" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddButton" view-data-key="add_new_item_button" style="width: 100px;" />
+            <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CancelButton" view-data-key="close_add_container_button" style="width: 100px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
