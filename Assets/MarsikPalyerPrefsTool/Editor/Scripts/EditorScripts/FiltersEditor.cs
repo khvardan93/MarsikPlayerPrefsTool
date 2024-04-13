@@ -128,7 +128,7 @@ namespace MarsikTools.Editor
 
             if (evt.newValue)
             {
-                if (EditorUtility.DisplayDialog("Enable auto refresh.", "Are you sure you want to enable auto refresh?",
+                if (EditorUtility.DisplayDialog("Enable auto refresh.", "Are you sure you want to enable auto refresh? You won't be able delete or edit the items!",
                         "Enable", "Cancel"))
                 {
                     DataStorageEditorWindow.AutoRefresh = true;
